@@ -3,10 +3,14 @@ import {
 } from 'react-native';
 
 export const styles = StyleSheet.create({
-    Coords: {
+    SendCoords: {
 //        flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: '#F5FCFF'
+    },
+    Button: {
+        backgroundColor: "blue",
+        color: "white"
     }
 });

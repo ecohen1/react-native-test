@@ -3,8 +3,7 @@ import {
   Text,
   View
 } from 'react-native';
-import {Coords} from '../Coords/Coords.js';
-import {Input} from '../Input/Input.js';
+import {SendCoords} from '../SendCoords/SendCoords.js';
 import {styles} from './styles.js';
 
 export class AwesomeProject extends Component {
@@ -15,8 +14,7 @@ export class AwesomeProject extends Component {
     render() {
         return (
             <View style={styles.AwesomeProject}>
-                <Input></Input>
-                <Coords></Coords>
+                <SendCoords></SendCoords>
             </View>
         )
     }
